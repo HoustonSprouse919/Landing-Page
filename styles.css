@@ -56,3 +56,12 @@ ul{
     height: 250px;
     width: 500px;
 }
+.ran-info h3{
+    display: flex;
+    justify-content: center;
+}
+.sections{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
