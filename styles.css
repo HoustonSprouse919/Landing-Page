@@ -57,11 +57,76 @@ ul{
     width: 500px;
 }
 .ran-info h3{
+    color: #1f2937;
     display: flex;
     justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
 }
 .sections{
     display: flex;
     justify-content: center;
     gap: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+.sections img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.sections p{
+    width: 250px;
+    color: #3b3b3b;
+}
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 150px 0px 150px;
+    width: 100%;
+}
+.quote p1{
+    font-size: 36px;
+    font-style: italic;
+    width: 1000px;
+}
+.quote p2{
+    align-self: flex-end;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 150px 0px 0px -150px;
+}
+.call-to-action{
+    background-color: #3882f6;
+    height: 200px;
+    margin: 100px 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.call-left{
+    margin-bottom: 10px;
+}
+.call-to-action h3{
+    color: #F9FAF8;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.call-to-action p{
+    color: #F9FAF8;
+    font-size: 18px;
+    margin-top: 0;
+}
+.call-to-action button{
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    color: #F9FAF8;
+    height: 50px;
+    outline-style: none;
+    width: 150px;
 }
